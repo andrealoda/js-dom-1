@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+.bg-white {
+    background-color: white;
+}
+
+.bg-dark {
+    background-color: rgb(34, 34, 34);
+}
+
 .container {
     position: absolute;
     top: 50%;
@@ -19,10 +27,18 @@
     gap: 1rem;
 }
 
+#emoji {
+    font-size: 3rem;
+}
+
 .btn {
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 4px 10px grey;
+
+    &:hover {
+        background-color: red;
+    }
 }
 
 #button {
