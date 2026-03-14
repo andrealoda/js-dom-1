@@ -9,7 +9,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .main {
@@ -20,14 +19,7 @@
     gap: 1rem;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-}
-
 .btn {
-    display: flex;
-    justify-content: center;
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 4px 10px grey;
