@@ -1,5 +1,6 @@
 const bulb = document.getElementById('image');
 const button = document.getElementById('button');
+button.innerHTML = 'Turn on the light';
 const emoji = document.getElementById('emoji');
 const body = document.querySelector('body');
 
